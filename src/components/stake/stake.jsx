@@ -706,7 +706,7 @@ class Stake extends Component {
     const selectedToken = tokens[0]
 
     this.setState({ loading: true })
-    dispatcher.dispatch({ type: EXIT, content: { asset: asset } })
+    dispatcher.dispatch({ type: EXIT, content: { asset: selectedToken } })
   }
 
   renderAssetInput = (asset, type) => {

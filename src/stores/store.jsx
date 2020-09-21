@@ -128,7 +128,7 @@ class Store {
               abi: config.erc20ABI,
               decimals: 6,
               rewardsAddress: config.yfamrewardsaddress,
-              rewardsABI: config.yCurveFiRewardsABI,
+              rewardsABI: config.yfamrewardsabi,
               rewardsSymbol: 'YFAM',
               Rewardsdecimals: 18,
               rewardsBalance:0,
